@@ -11,10 +11,7 @@ A cutting-edge full-stack authentication system featuring a blazing-fast Vite + 
 - **Form Handling**: React Hook Form with Zod validation
 - **Styling**: Tailwind CSS for modern, responsive design
 - **Protected Routes**: Secure route handling with React Router
-- **Toast Notifications**: User-friendly feedback system
-- **Loading States**: Skeleton loaders and spinners
-- **Responsive Design**: Mobile-first approach
-
+  
 ### Backend
 - **Secure Authentication**: JWT-based authentication with refresh token rotation
 - **Password Security**: Bcrypt password hashing with salt rounds
@@ -147,36 +144,29 @@ Content-Type: application/json
 - **Security**: bcrypt, cors, helmet
 - **Environment**: dotenv
 - **Validation**: express-validator
-- **Logging**: winston
+
 
 ## 📦 Project Structure
 
 ```
 ├── frontend/
 │   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── contexts/       # React contexts
-│   │   ├── hooks/         # Custom React hooks
-│   │   ├── layouts/       # Page layouts
-│   │   ├── pages/         # Route components
-│   │   ├── services/      # API services
-│   │   ├── types/         # TypeScript types
-│   │   ├── utils/         # Utility functions
-│   │   ├── App.tsx        # Root component
-│   │   └── main.tsx       # Entry point
-│   └── index.html         # HTML template
+│   │   ├── login.jsx              #login
+│   │   ├── registration.jsx       # registration
+│   │   ├── App.jsx                # Root component
+│   │   └── main.jsx               # Entry point
+
 │
 └── backend/
     ├── src/
-    │   ├── config/        # Configuration files
+    │   ├── config/        # Configuration files(hidden)
     │   ├── controllers/   # Route controllers
     │   ├── middleware/    # Custom middleware
     │   ├── models/        # Mongoose models
     │   ├── routes/        # API routes
-    │   ├── services/      # Business logic
-    │   ├── utils/         # Utility functions
+    │   ├── utils/         # Utility functions (hidden)
     │   └── app.js         # Express app setup
-    └── .env              # Environment variables
+    └── .env               # Environment variables
 ```
 
 ## 🤝 Contributing
