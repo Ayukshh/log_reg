@@ -38,7 +38,7 @@ A cutting-edge full-stack authentication system featuring a blazing-fast Vite + 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Ayukshh/fullstacklogin
+git clone https://github.com/Ayukshh/log_reg
 cd auth-system
 ```
 
